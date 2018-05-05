@@ -24,13 +24,13 @@ GLOBAL_DB_PASSWORD="123456"
 
 # DIRECTORIO DE RESPALDO
 # BKP_DIR="${SESSION_USER_PATH}/sqldata/${date_year}/${date_month}/${date_day}/${data}"
-BKP_DIR="/media/datos/sistemas/www/sicap/sicapDatabase/${date_year}/${date_month}/${date_day}/${data}"
+BKP_DIR="/home/efrain/sqldata/atenea/${date_year}/${date_month}/${date_day}/${data}"
 #BKP_DIR="/media/datos/sqldata"
 
 
 # TIEMPO CRONTAB PARA RESPALDO
 # CRONTAB_TIME=("50 8 * * *" "20 16 * * *") #8:50AM, 16:20PM
-CRONTAB_TIME=("59 9 * * *" "30 16 * * *") #9:59AM, 12:59PM
+CRONTAB_TIME=("30 3 * * *" "30 12 * * *") #3:30AM, 12:30PM
 #CRONTAB_TIME=("*/2 * * * *") #cada 2 minutos
 # TODOS [*]
 # MINUTO [0-59]

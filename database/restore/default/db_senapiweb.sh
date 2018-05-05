@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 #########################
@@ -7,17 +6,18 @@
 
 #                     backup             #
 
-#              Base de datos mysql       #
+#              Base de datos mysql|pgsql  #
 
 #########################
 
 # VARIABLES
 
+DATABASE_DRIVER="pgsql" # mysql|pgsql
 DATABASE_HOST="localhost"
-DATABASE_PORT=""
-DATABASE_NAME="db_sicap"
-DATABASE_USER="root"
-DATABASE_PASSWORD="$GLOBAL_DB_PASSWORD"
+DATABASE_PORT="5432"
+DATABASE_NAME="db_senapiweb"
+DATABASE_USER="senapi"
+DATABASE_PASSWORD="senapi2018"
 
 
 

@@ -147,7 +147,7 @@ cb_menu(){
 	return 0
 }
 
-cb_menu "Configurar respaldo automatico  base de datos mysql" "install_backup_auto"
+cb_menu "Configurar respaldo automatico  base de datos postgres" "install_backup_auto"
 cb_menu "Configurar apagando automatico de servidor" "config_shutdown"
 cb_menu "Instalar Gnome Schedule(Aplicación para configurar respaldo.)" "install_gnome_schedule"
 cb_menu "Salir/atajo (Ctrl-C)" "break"
